@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const context = canvas.getContext("2d");
         const frameCount = 80;
         const currentFrame = index => (
-            `hero/Components_unravels_elegantly_be…_202605182144_${index.toString().padStart(3, '0')}.jpg`
+            `hero/frame_${index.toString().padStart(3, '0')}.jpg`
         );
 
         const img = new Image();
