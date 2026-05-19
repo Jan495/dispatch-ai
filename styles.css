@@ -169,7 +169,7 @@ a {
 
 /* Hero Section */
 .hero {
-    height: 800vh; /* Increased scroll height to slow down the animation */
+    height: 300vh; /* Optimal scroll distance based on UX best practices (200% scroll distance) */
     background-color: var(--bg-near-black);
     position: relative;
 }
